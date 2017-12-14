@@ -1,0 +1,10 @@
+package: docker-sample
+import:
+- package: github.com/docker/docker
+  version: ~17.5.0-ce-rc3
+  subpackages:
+  - api/types
+  - client
+- package: golang.org/x/net
+  subpackages:
+  - context
